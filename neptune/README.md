@@ -1,14 +1,15 @@
 # Python scripts for Amazon Neptune
 
-**append_gremlin_file.py** - Appends records to a gremlin csv file.
+#### append_gremlin_file.py**
+Appends records to a gremlin csv file.
 
-Parameters:
+**Parameters**
 
-id - unique id for each row.
+id: unique id for each row.
 
-label - name of the entity type. e.g. person, game, etc.
+label: name of the entity type. e.g. person, game, etc.
 
-Usage:
+**Usage**
 
 python .\append_gremlin_file.py *human_x* *person*
 
