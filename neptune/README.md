@@ -1,6 +1,6 @@
 # Python scripts for Amazon Neptune
 
-#### append_gremlin_file.py**
+### append_gremlin_file.py
 Appends records to a gremlin csv file.
 
 **Parameters**
