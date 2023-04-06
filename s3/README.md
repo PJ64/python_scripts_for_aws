@@ -2,13 +2,14 @@
 
 ### download_s3_object.py
 Downloads a object from an Amazon S3 bucket.
+
 **Note**: You should run the **upload_s3_object.py** script first.
 
 **Parameters**
 
-profile_name - name of the AWS profile that you want to authenicate with.
+profile_name: name of the AWS profile that you want to authenicate with.
 
-bucket_name - name of the S3 bucket that you want to download from.
+bucket_name: name of the S3 bucket that you want to download from.
 
 **Usage**
 
@@ -20,9 +21,9 @@ Prints a list of all the objects in an S3 Bucket.
 
 **Parameters**
 
-profile_name - name of the AWS profile that you want to authenicate with.
+profile_name: name of the AWS profile that you want to authenicate with.
 
-bucket_name - name of the S3 bucket that you want to list the objects in.
+bucket_name: name of the S3 bucket that you want to list the objects in.
 
 **Usage**
 
@@ -35,9 +36,9 @@ Prints a sorted list of all the objects in an S3 Bucket, from oldest to newest b
 
 **Parameters**
 
-profile_name - name of the AWS profile that you want to authenicate with.
+profile_name: name of the AWS profile that you want to authenicate with.
 
-bucket_name - name of the S3 bucket that you want to list the objects in.
+bucket_name: name of the S3 bucket that you want to list the objects in.
 
 **Usage**
 
@@ -50,9 +51,9 @@ Puts an object into an Amazon S3 bucket.
 
 **Parameters**
 
-profile_name - name of the AWS profile that you want to authenicate with.
+profile_name: name of the AWS profile that you want to authenicate with.
 
-bucket_name - name of the S3 bucket where you want to put an object.
+bucket_name: name of the S3 bucket where you want to put an object.
 
 **Usage**
 
@@ -65,9 +66,9 @@ Uploads and object to an Amazon S3 bucket.
 
 **Parameters**
 
-profile_name - name of the AWS profile that you want to authenicate with.
+profile_name: name of the AWS profile that you want to authenicate with.
 
-bucket_name - name of the S3 bucket that you want to upload too.
+bucket_name: name of the S3 bucket that you want to upload too.
 
 **Usage**
 
