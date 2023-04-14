@@ -16,6 +16,24 @@ bucket_name: name of the S3 bucket that you want to download from.
 python .\download_s3_object.py *profile_name* *bucket_name*
 
 ---
+### get_s3_object.py
+Uses S3 client get_object to retrieve an object from an Amazon S3 bucket.
+
+**Note**: You should run the **upload_s3_object.py** script first.
+
+**Parameters**
+
+profile_name: name of the AWS profile that you want to authenicate with.
+
+bucket_name: name of the S3 bucket that you want to download from.
+
+object_key: name of the object that you want to retrieve.
+
+**Usage**
+
+python .\get_s3_object.py *profile_name* *bucket_name* *object_key*
+
+---
 ### list_s3_objects.py'
 Prints a list of all the objects in an S3 Bucket.
 
