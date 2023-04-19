@@ -78,6 +78,22 @@ bucket_name: name of the S3 bucket where you want to put an object.
 python .\put_s3_object.py *profile_name* *bucket_name*
 
 ---
+### read_s3_object.py
+Read an object from an Amazon S3 bucket.
+
+**Parameters**
+
+profile_name: name of the AWS profile that you want to authenicate with.
+
+bucket_name: name of the S3 bucket that you want to upload too.
+
+object_key: name of the object that you want to retrieve.
+
+**Usage**
+
+python .\read_s3_object.py *profile_name* *bucket_name* *object_key*
+
+---
 
 ### upload_s3_object.py
 Uploads and object to an Amazon S3 bucket.
