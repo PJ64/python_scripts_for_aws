@@ -1,5 +1,21 @@
 # Python scripts for Amazon S3
 
+### Delete buckets using regex patterns
+Identifies buckets to be emptied and deleted using regex patterns. The script will read the pattern file and match the patterns to buckets in your account. You will first need to add regex patterns to the patterns.txt file.
+
+**Note**: There is no undone when you delete a bucket.
+
+**Parameters**
+
+profile_name: name of the AWS profile that you want to authenicate with.
+
+**Usage**
+change directory to `./s3/delete-buckets-by-pattern` and run the script.
+
+python ./s3/delete-buckets-by-pattern/delete-buckets.py *profile_name*
+
+---
+
 ### download_s3_object.py
 Downloads a object from an Amazon S3 bucket.
 
